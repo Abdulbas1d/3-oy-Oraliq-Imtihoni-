@@ -1,5 +1,31 @@
+/* General Style */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.logo{
+    width: 1920px;
+    background-color: lightgray;
+    display: flex;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.logo img{
+    width: 30px;
+    height: 30px;
+    margin-left: 68px;
+}
+
+.logo a{
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+}
+
+.logo .block_header{
+
 }
