@@ -1,31 +1,109 @@
 /* General Style */
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.logo{
-    width: 1920px;
-    background-color: lightgray;
+.logo {
     display: flex;
-    margin-right: 100px;
-    margin-left: 100px;
+    width: 1440px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(110, 106, 106, 0.2);
+    width: 100%;
 }
 
 .logo img{
-    width: 30px;
-    height: 30px;
-    margin-left: 68px;
+    width: 15px;
+    height: 15px;
+    margin-left: 50px;
+}
+
+.logo img:hover{
+    color: black;
 }
 
 .logo a{
     text-decoration: none;
-    width: 30px;
-    height: 30px;
+    gap: 15px;
+    color: black;
+}
+
+.logo a:hover{
+    background: -webkit-linear-gradient(blue, red, green, black);
+    color: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 2px solid -webkit-linear-gradient(blue,red,green,black);
+    cursor: pointer;
+}
+
+.logo .tel{
+    margin-left: 5px;
+    font-size: 15px;
+    color: rgba(0,0,0,0.7);
+}
+
+.logo .tel:hover{
+    background: -webkit-linear-gradient(blue, red, green, black);
+    color: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 2px solid -webkit-linear-gradient(blue,red,green,black);
+    cursor: pointer;
+}
+
+.logo .location{
+    margin-left: 5px;
+    font-style: 15px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.logo .location:hover{
+    background: -webkit-linear-gradient(blue, red, green, black);
+    color: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 2px solid -webkit-linear-gradient(blue,red,green,black);
+    cursor: pointer;
 }
 
 .logo .block_header{
-
+    margin-left: 300px;
 }
+
+.block_header .one{
+    margin-right: 17px;
+}
+
+.block_header .two{
+    margin-right: 17px;
+}
+
+.block_header .thirty{
+    margin-right: 17px;
+}
+
+.block_header .forty{
+    margin-right: 17px;
+}
+
+.block_header .fifty{
+    margin-right: 17px;
+}
+
+.block_header .six{
+    margin-right: 22px;
+}
+
+select{
+    border: none;
+    background-color: rgba(110, 106, 106, 0);
+    cursor: pointer;
+}
+
+select:hover{
+    border: 1px solid gray;
+}
+
