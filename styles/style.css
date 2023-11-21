@@ -107,3 +107,41 @@ select:hover{
     border: 1px solid gray;
 }
 
+.header_container{
+    display: flex;
+}
+
+.header_container .img1{
+    margin-left: 5px;
+    width: 210px;
+    height: 45px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.header_container button{
+    margin-left: 40px;
+    padding: 28px;
+    border-radius: 19px;
+    width: 150px;
+    height: 72px;
+    margin-bottom: 10px;
+    background-color: #da4d10;
+    color: #FFF;
+}
+
+.header_container .img2{
+    width: 35px;
+    height: 24px;
+}
+
+.header_container .button{
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.button{
+    bottom: none;
+}
