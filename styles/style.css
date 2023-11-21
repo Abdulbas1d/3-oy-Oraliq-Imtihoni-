@@ -132,16 +132,936 @@ select:hover{
 
 .header_container .img2{
     width: 35px;
-    height: 24px;
+    height: 44px;
+    padding-bottom: 20px;
 }
 
 .header_container .button{
     margin-top: 20px;
-    display: flex;
-    margin-bottom: 20px;
+}
+
+.header_container button{
     border: none;
 }
 
-.button{
-    bottom: none;
+.inputs input{
+    height: 45px;
+    width: 450px;
+    margin-top: 87px;
+    transition: all 0.5s;
+    border:1px solid rgb(207, 200, 200);
+    border-radius:6px;
+    margin-left: 40px;
+    cursor: pointer;
+    padding: 10px;
+}
+.inputs input:hover{
+    background:rgb(252, 255, 255);
+    font-size: 14px;
+    border:none;
+}
+.butons button {
+    margin-top:87px;
+    width: 80px;
+    height: 45px;
+    background:rgb(223, 15, 15);
+    border:1px solid rgb(216, 213, 213);
+    border-radius:12px;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-left: -75px;
+}
+.butons button:hover{
+    background:rgb(255, 0, 0);
+}
+.one-item img {
+    margin-top: 85px;
+    margin-left: 45px;
+    cursor: pointer;
+}
+.one-item h3{
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-right: 0px;
+}
+.one-item h3:hover{
+    color:blue;
+    margin-right: -140px;
+}
+.two-item{
+    margin-left: 120px;
+    margin-top: -80px;
+}
+.two-item h3{
+    font-size: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-top: 5px;
+}
+.two-item h3:hover{
+    color:blue;
+}
+.two-item img{
+    margin-top: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.three-item h3{
+    margin-left: -10px;
+    font-size: 15px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.three-item img{
+    cursor: pointer;
+}
+.three-item h3:hover{
+    color:blue;
+}
+
+.three-item{
+    margin-left: 229px;
+    margin-top: -48px;
+}
+.four-item h3{
+    font-size: 15px;
+    margin-left: -18px;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-top: 5px;
+}
+.four-item h3:hover{
+    color:blue;
+}
+.four-item img{
+    cursor: pointer;
+}
+.four-item{
+    margin-left: 310px;
+    margin-top: -50px;
+}
+.five-item h3{
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: -5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.five-item h3:hover{
+    color:blue;
+}
+.five-item{
+    margin-left: 395px;
+    margin-top: -50px;
+}
+.five-item img{
+    cursor: pointer;
+}
+.info__container {
+    margin-left: 10px;
+}
+.two-hero__container{
+    margin-top: 160px;
+    
+}
+.buton3 button{
+    margin-left: -1250px;
+    cursor: pointer;
+    width: 90px;
+    height: 25px;
+    border:none;
+    border-radius:12px;
+    background-image: url(../imgaes/bg.svvg.svg);
+    background-repeat: no-repeat;
+    color:white;
+    transition: all 0.5s;
+}
+.uls2 ul {
+    margin-left: -1130px;
+    margin-top: -20px;
+    display:flex;
+    gap: 29px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.uls2 ul li{
+    transition: all 0.5s;
+}
+.uls2 ul li:hover{
+    color:blue;
+}
+.footer-one__container{
+    margin-top: 200px;
+}
+.buton-three button{
+    width: 50px;
+    height: 20px;
+    background:white;
+    margin-left: -1255px;
+    border:none;
+    border-radius:12px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.buton-three button:hover{
+    background:rgb(180, 180, 180);
+    color:black;
+}
+.comon-img img{
+    width: 1370px;
+    height: 300px;
+    margin-left: -1295px;
+}
+.text-one p{
+    margin-left: -1290px;
+    font-size: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.info-one{
+    width: 200px;
+    height: 82px;
+    background:white;
+    margin-left: -1292px;
+    margin-top: 19px;
+    border: none;
+    border-radius:12px;
+    transition: all 0.5s;
+    cursor: pointer;
+    border:1px solid lightgray;
+}
+.info{
+    margin-left: 40px;
+}
+.info-one:hover{
+    background:lightgray;
+}
+.info-one img{
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.info-one  h3{
+    margin-left: 70px;
+    margin-top: -30px;
+}
+.info-two{
+    width: 200px;
+    height: 82px;
+    background:white;
+    margin-left: -865px;
+    margin-top: -81px;
+    border: none;
+    border-radius:12px;
+    transition: all 0.5s;
+    cursor: pointer;
+    border:1px solid lightgray
+
+}
+.info-two img{
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.info-two h3{
+    margin-left: 70px;
+    margin-top: -35px;
+}
+
+.info-two:hover{
+    background:lightgray;
+}
+.info-three{
+    width: 200px;
+    height: 82px;
+    background:white;
+    margin-left: -1080px;
+    margin-top: -80.5px;
+    border: none;
+    border-radius:12px;
+    transition: all 0.5s;
+    cursor: pointer;
+    border:1px solid lightgray
+
+}
+.info-three img{
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.info-three h3{
+    margin-left: 70px;
+    margin-top: -35px;
+}
+
+.info-three:hover{
+    background:lightgray;
+}
+.info-tou{
+    width: 200px;
+    height: 82px;
+    background:white;
+    margin-left: -650px;
+    margin-top: -79.5px;
+    border: none;
+    border-radius:12px;
+    transition: all 0.5s;
+    cursor: pointer;
+    border:1px solid lightgray
+
+}
+.info-tou img{
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.info-tou h3{
+    margin-left: 70px;
+    margin-top: -35px;
+}
+
+.info-tou:hover{
+    background:lightgray;
+}
+.info-five{
+    width: 200px;
+    height: 82px;
+    background:white;
+    margin-left: -435px;
+    margin-top: -80.5px;
+    border: none;
+    border-radius:12px;
+    transition: all 0.5s;
+    cursor: pointer;
+    border:1px solid lightgray
+
+}
+.info-five img{
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.info-five h3{
+    margin-left: 70px;
+    margin-top: -35px;
+}
+
+.info-five:hover{
+    background:lightgray;
+}
+.info-six{
+    width: 200px;
+    height: 82px;
+    background:white;
+    margin-left: -220px;
+    margin-top: -80.5px;
+    border: none;
+    border-radius:12px;
+    transition: all 0.5s;
+    cursor: pointer;
+    border:1px solid lightgray
+
+}
+.info-six img{
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.info-six h3{
+    margin-left: 70px;
+    margin-top: -35px;
+}
+
+.info-six:hover{
+    background:lightgray;
+}
+.text p {
+    margin-left: -1250px;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.buttons{
+    margin-left: -1250px;
+    margin-top: 20px;
+    display:flex;
+}
+.one-buton button{
+    width: 130px;
+    height: 35px;
+    background:black;
+    color:white;
+    border:none;
+    border-radius:15px;
+    cursor: pointer;
+    transition: all 1s;
+    margin-top: 20px;
+}
+.one-buton button:hover{
+    background:white;
+    color:black;
+    border:1px solid black
+}
+.two-buton button{
+    width: 140px;
+    height: 35px;
+    background:lightgray;
+    color:rgb(39, 37, 37);
+    border-radius:15px;
+    cursor: pointer;
+    transition: all 1.0s;
+    border:none;
+    margin-left:140px ;
+    margin-top:20px;
+}
+.two-buton button:hover{
+    background:rgb(51, 50, 50);
+    color:white;
+    border:1px solid lightgray
+}
+/* .footer-thou{
+    display: flex;
+    align-items: center;
+} */
+.three-buton button{
+    width: 180px;
+    height: 36px;
+    background:lightgrey;
+    color:rgb(39, 37, 37);
+    border-radius:15px;
+    cursor: pointer;
+    transition: all 1.0s;
+    border:none;
+    margin-left:100px;
+    margin-top: 20px;
+
+}
+.three-buton button:hover{
+    background:rgb(51, 50, 50);
+    color:white;
+    border:1px solid lightgray
+}
+.four-buton button{
+    width: 170px;
+    height: 34px;
+    background:lightgrey;
+    border:none;
+    border-radius:15px;
+    cursor: pointer;
+    transition: all 1.0s;
+    margin-left: 100px;
+    margin-top: 23px;
+}
+.four-buton button:hover{
+    background:rgb(51, 50, 50);
+    color:white;
+    border:1px solid lightgray
+}
+.information2{
+    width: 211.5px;
+    height: 500px;
+    margin-left: -1200px;
+    margin-top: 20px;
+    border:none;
+    border-radius:12px;
+}
+.common__contaioner{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.text-one button{
+    border:none;
+    width: 155.5px;
+    height: 30px;
+    background:rgb(3, 90, 3);
+    border-radius:10px;
+    margin-top:10px ;
+    margin-left: 7px;
+    cursor:pointer;
+    color:white;
+    transition: all 0.5s;
+}.text-one button:hover{
+    background:rgb(5, 243, 5);
+    color:rgb(22, 21, 21);
+}
+.TV img{
+    width: 185.5px;
+    height: 190px;
+    margin-left: 10px;
+}
+.text-two h2{
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 8px;
+    font-family: sans-serif;
+    cursor: pointer;
+    text-decoration: line-through;
+    opacity: 0.65;
+
+}
+.text-three h3{
+    padding-top: 10px;
+    padding-left:25px;
+    font-size: 26px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.buton1 button{
+    width: 130px;
+    height: 30px;
+    background:white;
+    border:1px solid lightgray;
+    cursor: pointer;
+    border-radius:10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    color:rgb(100, 100, 151);
+    transition: all 0.5s;
+}
+.buton1 button:hover{
+    background:rgb(151, 151, 207);
+    color:rgb(11, 11, 138);
+}
+.textalign h3{
+    color:black;
+    opacity: 0.90;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family:  sans-serif;
+}
+/* .zs{
+    display:flex;
+    cursor: pointer;
+    margin-top: 20px;
+    gap: 3px;
+    margin-left: 13px;
+}
+.typetext h3{
+    opacity: 0.90;
+    line-height: 14px;
+    font-size: 15px;
+    color: rgb(108 113 120/var(--tw-text-opacity));
+}
+.one button {
+    background:rgb(199, 8, 8);
+    border:none;
+    width: 50px;
+    height: 40px;
+    border-radius:9px;
+    margin-top: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+    color:white;
+}
+.one button:hover{
+    background:rgb(114, 9, 9);
+}
+.two button {
+    width: 50px;
+    height: 40px;
+    border:none;
+    border-radius:10px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.5s;
+}
+.two button:hover{
+    background:rgb(145, 143, 143);
+}
+.three button{
+    width: 50px;
+    height: 40px;
+    border:1px solid lightgray;
+    border-radius:10px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.5s;
+}
+.three button:hover{
+    background:rgb(134, 133, 133);
+}
+.buttons-one{
+    display: flex;
+    gap:10px ;
+    margin-left:10px; 
+} */
+
+.main-one{
+    margin-left: -1200px;
+    margin-top: 30px;
+}
+.button-item button{
+    width: 150px;
+    height: 30px;
+    border:none;
+    border-radius:12px;
+    background:lightgreen;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-top: 12px;
+    margin-left:9px ;
+}
+.button-item button:hover{
+    background:rgb(26, 168, 26);
+    border:1px solid rgb(124, 119, 119);
+}
+.main-one{
+    width: 211.5px;
+    height: 500px;
+    transition: all 3.0s;
+    border-radius:12px;
+    cursor: pointer;
+}
+.main-one:hover{
+    border:1px solid rgb(233, 224, 224);
+    border-radius:12px
+}
+.imagess img{
+    width: 170px;
+    height: 190px;
+    margin-left: 19px;
+}
+.text-one-item h3{
+    text-decoration: line-through;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 10px;
+    color: rgb(145, 142, 142);
+}
+.text-two-item h2{
+    margin-left: 10px;
+    margin-top: 13px;
+    font-size: 23px;
+    font-weight: bolder;
+}
+.buton-one-item button{
+    width: 165px;
+    height: 27px;
+    background:white;
+    border:0.5px solid black;
+    border-radius:10px;
+    transition:all 0.5s;
+    cursor:pointer;
+    font-size: 14px;
+    margin: 10px 7px;
+    padding: 4px 12px ;
+}
+.buton-one-item button:hover{
+    /* background:lightgray; */
+    border: 1px solid rgb(131, 129, 129);
+}
+.text-three-item h2{
+    font-size: 14px;
+    opacity: 1;
+    line-height: 150%;
+    text-align: left;
+    min-height: 38px;
+    margin-top: 12px;
+    color:rgb(129, 128, 128);
+    margin-left: 7px;
+}
+.sz{
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.texte h2{
+    font-size: 14px;
+    font-weight: 500;
+}
+.buttonsss{
+    display:flex;
+    gap: 10px;
+    margin-left:5px ;
+    margin-top: 12px;
+
+}
+.butons-two-item button{
+    width: 65.5px;
+    height: 50px;
+    background:rgb(224, 56, 56);
+    border:none;
+    border-radius:10px;
+    transition: all 1.0s;
+    cursor: pointer;
+    
+}
+.butons-two-item  button:hover{
+    background:rgb(184, 16, 16);
+}
+.butons-three-item button{
+    width: 55.5px;
+    height: 50px;
+    background:rgb(219, 218, 218);
+    border:none;
+    border-radius:10px;
+    cursor: pointer;
+    transition: all 1.0s;
+
+}
+.butons-three-item button:hover{
+    background:white;
+    border:0.5px solid rgb(129, 121, 121)
+}
+
+.butons-four-item button{
+    width: 55.5px;
+    height: 50px;
+    background:rgb(211, 209, 209);
+    border:none;
+    border-radius:10px;
+    cursor: pointer;
+    transition: all 1.0s
+}
+.butons-four-item button:hover{
+    background:white;
+    border:0.5px solid rgb(129, 121, 121)
+}
+.common__container{
+    display:flex;
+    justify-content: space-between;
+    margin-left: -10px;
+}
+.common__contaioner{
+    margin-left: -85px;
+}
+.big__container{
+    margin-left: -1290px;
+    display:flex;
+    gap: 20px;
+}
+.big__container button{
+    /* background:rgb(230, 53, 53); */
+}
+.bigger__container{
+    margin-left: -1295px;
+    display:flex;
+    gap: 20px;
+}
+.big-img{
+    margin-left: -1295px;
+    margin-top: 40px;
+    
+}
+.big-img img{
+    width: 1339px;
+    border-radius:15px;
+}
+.text-one-item p{
+    margin-left: -1270px;
+    /* width: 259.69px; */
+    /* height: 36px; */
+    font-size: 40px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.buttons-item{
+    margin-left: -1260px;
+    display:flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+.buon button{
+    width: 49.55px;
+    height: 30px;
+    background:black;
+    color:white;
+    border:none;
+    border-radius:25px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.buon button:hover{
+    background:white;
+    color:black;
+}
+.button-two-item button{
+    width: 111px;
+    height: 30px;
+    border:none;
+    border-radius: 10px;
+    background:rgb(218, 216, 216);
+    cursor: pointer;
+    padding: 6px 14px;
+    transition: all 0.5s;
+}
+.button-two-item button:hover{
+    background:rgb(121, 117, 117);
+    color:rgb(255, 254, 254) ;
+}
+.button-three-item button{
+    width: 111px;
+    height: 30px;
+    border:none;
+    border-radius: 10px;
+    background:rgb(218, 216, 216);
+    cursor: pointer;
+    padding: 6px 14px;
+    transition: all 0.5s;
+}
+.button-three-item button:hover{
+    background:rgb(121, 117, 117);
+    color:rgb(255, 254, 254) ;
+}
+.button-fiver-item button{
+    width: 111px;
+    height: 30px;
+    border:none;
+    border-radius: 10px;
+    background:rgb(218, 216, 216);
+    cursor: pointer;
+    padding: 6px 14px;
+    transition: all 0.5s;
+}
+.button-fiver-item button:hover{
+    background:rgb(121, 117, 117);
+    color:rgb(255, 254, 254) ;
+}
+.button-four-item button{
+    width: 111px;
+    height: 30px;
+    border:none;
+    border-radius: 10px;
+    background:rgb(218, 216, 216);
+    cursor: pointer;
+    padding: 6px 14px;
+    transition: all 0.5s;
+}
+.button-four-item button:hover{
+    background:rgb(121, 117, 117);
+    color:rgb(255, 254, 254) ;
+}
+.informations{
+    margin-left: -1245px;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.one-comp-item{
+    width: 211.5px;
+    height: 500px;
+    background:white;
+    margin-left:-1230px ;
+    margin-top: 30px;
+    border:1px solid black;
+}
+.images-comp img{
+    width: 190px;
+    height: 190px;
+    margin-left: 12px;
+    margin-top: 29px;
+}
+.zvd{
+    display: flex;
+    gap: 8px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.five-zvd h3{
+    font-size: 14px;
+    color: rgb(22, 22, 22);
+    margin-left: 20px;
+    margin-top: -25px;
+}
+.text-one-comp h6{
+    width: 200.66px;
+    height: 42px;
+    font-size: 12px;
+    margin-top: 22px;
+    font-weight: 400;
+    margin-left: 26px;
+    font-family: sans-serif;
+    cursor: pointer;
+    color:rgb(102, 98, 98);
+    transition: all 0.5s;
+}
+.text-one-comp h6:hover{
+    color:black;
+}
+.buton-one-comp button{
+    width: 160px;
+    height: 37px;
+    background:rgb(29, 28, 28);
+    border:none;
+    margin-left: 30px;
+    margin-top: 90px;
+    padding: 4px 10px;
+    border-radius:12px;
+    cursor: pointer;
+}
+.buton-one-comp button{
+    color:white;
+}
+.buton-one-comp span{
+    color:lightgray;
+}
+.com__container{
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.footer__container-one{
+    margin-left: -1290px;
+    margin-top: 50px;
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+}
+.artel-logo button{
+    width: 210px;
+    height: 120px;
+    border:none;
+    border-radius:12px;
+    cursor: pointer;
+}
+.samsung-logo button{
+    width: 210px;
+    height: 120px;
+    border:none;
+    border-radius:12px;
+    cursor: pointer;
+}
+.lg-logo button{
+    width: 210px;
+    height: 120px;
+    border:none;
+    border-radius:12px;
+    cursor: pointer;
+}
+.xiomi-logo button{
+    width: 210px;
+    height: 120px;
+    border:none;
+    border-radius:12px;
+    cursor: pointer;
+}
+.hp-logo button{
+    width: 210px;
+    height: 120px;
+    border:none;
+    border-radius:12px;
+    cursor: pointer;
+}
+.apple-logo button{
+    width: 210px;
+    height: 120px;
+    border:none;
+    border-radius:12px;
+    cursor: pointer;
 }
