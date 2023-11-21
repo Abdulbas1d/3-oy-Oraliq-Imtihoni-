@@ -108,7 +108,7 @@ select:hover{
 }
 
 .header_container{
-    display: flex;
+    /* display: flex; */
 }
 
 .header_container .img1{
